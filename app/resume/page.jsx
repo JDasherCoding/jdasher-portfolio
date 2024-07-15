@@ -23,12 +23,11 @@ import {
 const about = {
 	title: "About me",
 	description:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat nisi accusantium, alias eius cupiditate voluptates obcaecati?",
+		"A developer with a passion for the technical challenges. I enjoy problem solving, currently working my way through the Learning Paths on TryHackMe, focusing on Penetration Testing. As well as working on a Scripture Engagement App.",
 	info: [
 		{ fieldName: "Name", fieldValue: "James Dasher" },
-		{ fieldName: "Phone", fieldValue: "(+40) 321 654 678" },
-		{ fieldName: "Experience", fieldValue: "12+ Years" },
-		{ fieldName: "Skype", fieldValue: "skypeAdress" },
+		{ fieldName: "Phone", fieldValue: "(+47) ??? ?? ???" },
+		{ fieldName: "Experience", fieldValue: "3+ Years" },
 		{ fieldName: "Email", fieldValue: "jdasher.dev@gmail.com" },
 		{ fieldName: "Freelance", fieldValue: "Available" },
 		{ fieldName: "Languages", fieldValue: "English, Norwegian" },
@@ -40,37 +39,27 @@ const experience = {
 	icon: "/assets/resume/badge.svg",
 	title: "My experience",
 	description:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum eum quam! Cumque culpa nobis hic asperiores!",
+		"More than 3 years of Coding in my freetime, and some time at bootcamp as well as a 6 month internship at Kodeverket Bergen.",
 	items: [
 		{
-			company: "Tech Solutions Inc.",
-			position: "Full Stack Developer",
-			duration: "2022 - Present",
+			company: "Bergen Baptist Church",
+			position: "Translator [En-No] & Teacher/Assitant",
+			duration: "nov.2023 - current date",
 		},
 		{
-			company: "Web Design Studio.",
+			company: "Løvås Oppverkstun",
+			position: "Teaching Assistant Primary School",
+			duration: "nov.2023 - dec.2023",
+		},
+		{
+			company: "Kodeverket Bergen.",
 			position: "Front-End Developer Intern",
-			duration: "Summer 2021",
+			duration: "okt.2022 - april.2023",
 		},
 		{
-			company: "E-commerce Startup",
-			position: "Freelance Web Developer",
-			duration: "2021 - 2022",
-		},
-		{
-			company: "Tech Academy",
-			position: "Teaching Assistant",
-			duration: "2019 - 2020",
-		},
-		{
-			company: "Digital Agency",
-			position: "UI/UX Designer",
-			duration: "2019 - 2020",
-		},
-		{
-			company: "Software Development Firm",
-			position: "Junior Developer",
-			duration: "2017 - 2019",
+			company: "Kodehode",
+			position: "Bootcamper Front-End",
+			duration: "apr.2022 - april.2023",
 		},
 	],
 };
@@ -80,42 +69,33 @@ const education = {
 	icon: "/assets/resume/cap.svg",
 	title: "My education",
 	description:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum eum quam! Cumque culpa nobis hic asperiores!",
+		"I have completed a WebDev bootcamp but am primarily self taught. Using personal projects or courses on Youtube and Udemy. Progress is update 1x/month",
 	items: [
 		{
-			institution: "Online Course Platform",
-			degree: "Fullstack Web Development Bootcamp",
-			duration: "2023",
+			institution: "TryHackMe",
+			degree: "Learning Path: Intro to CyberSecurity",
+			duration: "aug.2024 - aug.2024 [45%]",
 		},
 		{
-			institution: "Code Academy",
-			degree: "Front-end Track",
-			duration: "2022",
+			institution: "TryHackMe",
+			degree: "Learning Path: PreSecurity",
+			duration: "july.2024 -  july.2024 [30%]",
 		},
 		{
-			institution: "Online Course",
-			degree: "Programming Course",
-			duration: "2020-2021",
+			institution: "TryHackMe",
+			degree: "Learning Path: Complete Beginner",
+			duration: "july.2024 - current date [6%]",
 		},
 		{
-			institution: "Tech Institute",
-			degree: "Certified Web Developer",
-			duration: "2019",
+			institution: "University of Bergen",
+			degree: "Bachelor Program in Computer Security",
+			duration: "aug.2023 - current date",
 		},
+
 		{
-			institution: "Design School",
-			degree: "Diploma in Graphic Design",
-			duration: "2019",
-		},
-		{
-			institution: "Design School",
-			degree: "Diploma in Graphic Design",
-			duration: "2019",
-		},
-		{
-			institution: "Design School",
-			degree: "Diploma in Graphic Design",
-			duration: "2019",
+			institution: "Jobloop, Kodehode",
+			degree: "Front-End Developer Bootcamp",
+			duration: "apr.2022 - apr.2023",
 		},
 	],
 };
@@ -124,60 +104,46 @@ const education = {
 const skills = {
 	title: "My Skills",
 	description:
-		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cum eum quam! Cumque culpa nobis hic asperiores!",
+		"I have experience designing, and building websites from scratch. My strength is the problem solving aspect of a project. I enjoy learning and working my way through a problem.",
 
 	skillsList: [
 		{
-			icon: <FaHtml5 />,
-			name: "html 5",
-		},
-		{
-			icon: <FaCss3 />,
-			name: "css 3",
-		},
-		{
-			icon: <FaJs />,
-			name: "JavaScript",
-		},
-		{
-			icon: <FaReact />,
-			name: "React",
+			icon: <SiPython />,
+			name: "Python",
 		},
 		{
 			icon: <SiNextdotjs />,
 			name: "Next.js",
 		},
 		{
-			icon: <SiTailwindcss />,
-			name: "Tailwind.css",
+			icon: <FaHtml5 />,
+			name: "HTML 5",
 		},
 		{
-			icon: <FaNodeJs />,
-			name: "node.js",
+			icon: <FaCss3 />,
+			name: "CSS 3",
+		},
+		{
+			icon: <FaJs />,
+			name: "JavaScript",
+		},
+
+		{
+			icon: <SiStrapi />,
+			name: "Strapi Headless CMS",
+		},
+
+		{
+			icon: <SiTailwindcss />,
+			name: "Tailwind CSS",
+		},
+		{
+			icon: <FaReact />,
+			name: "React",
 		},
 		{
 			icon: <FaFigma />,
 			name: "Figma",
-		},
-		{
-			icon: <SiPython />,
-			name: "Python",
-		},
-		{
-			icon: <SiAuth0 />,
-			name: "Auth0",
-		},
-		{
-			icon: <SiSanity />,
-			name: "Sanity.io",
-		},
-		{
-			icon: <SiStrapi />,
-			name: "Strapi",
-		},
-		{
-			icon: <SiLinux />,
-			name: "Linux",
 		},
 	],
 };

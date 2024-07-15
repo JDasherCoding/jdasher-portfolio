@@ -19,19 +19,23 @@ export default function Home() {
 							<span className="text-accent">James Dasher</span>
 						</h1>
 						<p className="max-w-[500px] mb-9 text-white/80">
-							I excel at crafting elegant digital experiences and I'm proficient
-							with various programming languages and technologies.
+							I enjoy learning and sharing the knowledge. My favorite part of
+							any endevour is to challenge myself as I work through technical
+							problems.
 						</p>
 						{/* btn and socials */}
 						<div className="flex flex-col xl:flex-row items-center gap-8">
-							<Button
-								variant="outline"
-								size="lg"
-								className="uppercase flex items-center gap-2"
-							>
-								<span>Download CV</span>
-								<FiDownload className="text-xl" />
-							</Button>
+							<a href="/assets/resume/cv.pdf" download="James_Dasher_CV.pdf">
+								<Button
+									variant="outline"
+									size="lg"
+									className="uppercase flex items-center gap-2"
+								>
+									<span>Download CV</span>
+									<FiDownload className="text-xl" />
+								</Button>
+							</a>
+
 							<div className="mb-8 xl:mb-0">
 								<Socials
 									containerStyles="flex gap-6"
