@@ -7,14 +7,14 @@ const services = [
 		num: "01",
 		title: "Web Development",
 		description:
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum ad voluptates ipsam eaque alias nostrum id?",
+			"Together we'll choose the platform and framework that best suits your needs. ",
 		href: "",
 	},
 	{
 		num: "02",
 		title: "UI/UX Design",
 		description:
-			"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum ad voluptates ipsam eaque alias nostrum id?",
+			"A negative user experience can drag down even the most artfully designed app. Let's pay special attention so that your website will flow seamlessly.",
 		href: "",
 	},
 	{
