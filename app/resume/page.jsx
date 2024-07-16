@@ -1,14 +1,6 @@
 "use client";
 
-import { Description } from "@radix-ui/react-dialog";
-import {
-	FaHtml5,
-	FaCss3,
-	FaJs,
-	FaReact,
-	FaFigma,
-	FaNodeJs,
-} from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
 import {
 	SiTailwindcss,
 	SiNextdotjs,
@@ -23,12 +15,12 @@ import {
 const about = {
 	title: "About me",
 	description:
-		"A developer with a passion for the technical challenges. I enjoy problem solving, currently working my way through the Learning Paths on TryHackMe, focusing on Penetration Testing. As well as working on a Scripture Engagement App.",
+		"A developer with a passion for technical challenges and problem-solving. I am currently working through the Learning Paths on TryHackMe, focusing on Penetration Testing, and developing a Scripture Engagement App.",
 	info: [
 		{ fieldName: "Name", fieldValue: "James Dasher" },
 		{ fieldName: "Phone", fieldValue: "(+47) ??? ?? ???" },
 		{ fieldName: "Experience", fieldValue: "3+ Years" },
-		{ fieldName: "Email", fieldValue: "jdasher.dev@gmail.com" },
+		{ fieldName: "Email", fieldValue: "jamesdasher.dev@gmail.com" },
 		{ fieldName: "Freelance", fieldValue: "Available" },
 		{ fieldName: "Languages", fieldValue: "English, Norwegian" },
 	],
@@ -39,11 +31,11 @@ const experience = {
 	icon: "/assets/resume/badge.svg",
 	title: "My experience",
 	description:
-		"More than 3 years of Coding in my freetime, and some time at bootcamp as well as a 6 month internship at Kodeverket Bergen.",
+		"Over 3 years of coding in my free time, participation in a Web Development bootcamp, and a 6-month internship as a Front-End Developer at Kodeverket Bergen.",
 	items: [
 		{
 			company: "Bergen Baptist Church",
-			position: "Translator [En-No] & Teacher/Assitant",
+			position: "Translator & Teacher/Assitant",
 			duration: "nov.2023 - current date",
 		},
 		{
@@ -69,7 +61,7 @@ const education = {
 	icon: "/assets/resume/cap.svg",
 	title: "My education",
 	description:
-		"I have completed a WebDev bootcamp but am primarily self taught. Using personal projects or courses on Youtube and Udemy. Progress is update 1x/month",
+		"I have completed a Web Development bootcamp and am primarily self-taught. I update my progress once a month.",
 	items: [
 		{
 			institution: "TryHackMe",
@@ -104,7 +96,7 @@ const education = {
 const skills = {
 	title: "My Skills",
 	description:
-		"I have experience designing, and building websites from scratch. My strength is the problem solving aspect of a project. I enjoy learning and working my way through a problem.",
+		"I have experience designing and building websites from scratch. My strength lies in problem-solving, and I enjoy learning and working my way through challenges.",
 
 	skillsList: [
 		{

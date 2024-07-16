@@ -14,11 +14,11 @@ import {
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const info = [
-	{ icon: <FaPhoneAlt />, title: "Phone", description: "(+40) 321 654 876" },
+	{ icon: <FaPhoneAlt />, title: "Phone", description: "(+47) ??? ?? ???" },
 	{
 		icon: <FaEnvelope />,
 		title: "Email",
-		description: "jDasher.dev@gmail.com",
+		description: "jamesdasher.dev@gmail.com",
 	},
 	{ icon: <FaMapMarkerAlt />, title: "Address", description: "Bergen, Norway" },
 ];
@@ -41,9 +41,8 @@ const Contact = () => {
 						<form className="flex flex-col gap-6 p-10 bg-[#28282c] rounded-xl">
 							<h3 className="text-4xl text-accent">Let&apos;s work together</h3>
 							<p className="text-white/60">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Suscipit placeat dolorum cumque illum rerum modi maxime
-								doloremque iure? Autem, accusamus.
+								Contact form not yet implemented as I am researching privacy and
+								data handling guidelines. Thank you for your interest!
 							</p>
 							{/* Input  */}
 							<div className="grid grid-cols-1 md:grid-cols-2 gap-6">

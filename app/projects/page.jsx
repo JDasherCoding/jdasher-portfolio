@@ -21,29 +21,56 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
 	{
 		num: "01",
-		category: "Front-end",
-		title: "project 1",
+		category: "Full-stack",
+		title: "Booky - Fullstack hotel booking App",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis at illo, ab beatae ipsam iusto veritatis nemo?",
-		stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
-		image: "/assets/work/thumb1.png",
+			"Seamless hotel reservation management. Built with Next.js and Tailwind CSS, on Front-End. Strapi Back-End, and integrated Kinde Auth for user authentication, and ShadCn for Ui components.",
+		stack: [
+			{ name: "Next.js" },
+			{ name: "Tailwind CSS" },
+			{ name: "Strapi.io" },
+			{ name: "Kinde Auth" },
+		],
+		image: "/assets/work/project-booky.png",
 		live: "",
-		github: "/",
+		github: "https://github.com/JDasherCoding/booky-fullstack-nextjs",
 	},
 	{
 		num: "02",
-		category: "Full-stack",
-		title: "project 2",
+		category: "Front-End",
+		title: "Music Player",
 		description:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis at illo, ab beatae ipsam iusto veritatis nemo?",
-		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-		image: "/assets/work/thumb2.png",
-		live: "",
-		github: "&",
+			"A Music player with manually implemented controls in HTML, CSS, and JavaScript",
+		stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }],
+		image: "/assets/work/project-music-player.png",
+		live: "https://jdashercoding.github.io/music-player-html/",
+		github: "https://github.com/JDasherCoding/music-player-html",
 	},
 	{
 		num: "03",
-		category: "Front-end",
+		category: "Front-End",
+		title: "Math Sprint Game",
+		description:
+			"A Math Sprint game implemented with HTML, CSS, and JavaScript, utilizing localStorage to maintain and display high scores.",
+		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+		image: "/assets/work/project-math-sprint.png",
+		live: "https://jdashercoding.github.io/math-sprint-game-html/",
+		github: "https://github.com/JDasherCoding/math-sprint-game-html",
+	},
+	{
+		num: "03",
+		category: "Front-End",
+		title: "Dad Jokes Generator",
+		description:
+			"Dad Jokes and an opportunity to work with an API. What's not to love? Admittedly, they're not the best jokes, but Dad jokes tend to be hit and miss.",
+		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+		image: "/assets/work/project-dad-jokes.png",
+		live: "https://jdashercoding.github.io/Dad-Jokes/",
+		github: "https://github.com/JDasherCoding/Dad-Jokes",
+	},
+	{
+		num: "99",
+		category: "Placeholder Project",
 		title: "project 3",
 		description:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis at illo, ab beatae ipsam iusto veritatis nemo?",
@@ -54,7 +81,7 @@ const projects = [
 	},
 ];
 
-const Work = () => {
+const Projects = () => {
 	const [project, setProject] = useState(projects[0]);
 	const handleSlideChange = (swiper) => {
 		// get current slide index
@@ -170,4 +197,4 @@ const Work = () => {
 	);
 };
 
-export default Work;
+export default Projects;
