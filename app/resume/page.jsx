@@ -36,7 +36,7 @@ const experience = {
 		{
 			company: "Bergen Baptist Church",
 			position: "Translator & Teacher/Assitant",
-			duration: "nov.2023 - current date",
+			duration: "okt.2023 - current date",
 		},
 		{
 			company: "Løvås Oppverkstun",
