@@ -1,15 +1,7 @@
 "use client";
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
-import {
-	SiTailwindcss,
-	SiNextdotjs,
-	SiPython,
-	SiAuth0,
-	SiStrapi,
-	SiSanity,
-	SiLinux,
-} from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiPython, SiStrapi } from "react-icons/si";
 
 // about Data
 const about = {

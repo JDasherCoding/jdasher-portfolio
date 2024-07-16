@@ -1,6 +1,6 @@
 "use client";
 
-import { BsArrowDown, BsArrowDownRight } from "react-icons/bs";
+import { BsArrowDownRight } from "react-icons/bs";
 
 const services = [
 	{

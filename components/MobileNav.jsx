@@ -18,10 +18,6 @@ const links = [
 		name: "home",
 		path: "/",
 	},
-	// {
-	// 	name: "services",
-	// 	path: "/services",
-	// },
 	{
 		name: "resume",
 		path: "/resume",
@@ -39,7 +35,10 @@ const MobileNav = () => {
 	const pathName = usePathname();
 	return (
 		<Sheet>
-			<SheetTrigger className="flex justify-center items-center">
+			<SheetTrigger
+				className="flex justify-center items-center"
+				aria-label="Open Nav"
+			>
 				<CiMenuFries className="text-[32px] text-accent" />
 			</SheetTrigger>
 			<SheetContent className="flex flex-col">

@@ -25,7 +25,11 @@ export default function Home() {
 						</p>
 						{/* btn and socials */}
 						<div className="flex flex-col xl:flex-row items-center gap-8">
-							<a href="/assets/resume/cv.pdf" download="James_Dasher_CV.pdf">
+							<a
+								href="/assets/resume/cv.pdf"
+								download="James_Dasher_CV.pdf"
+								aria-label="Download CV"
+							>
 								<Button
 									variant="outline"
 									size="lg"
