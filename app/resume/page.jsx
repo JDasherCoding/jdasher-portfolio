@@ -57,13 +57,13 @@ const education = {
 	items: [
 		{
 			institution: "TryHackMe",
-			degree: "Learning Path: Intro to CyberSecurity",
-			duration: "aug.2024 - aug.2024 [45%]",
+			degree: "Learning Path: Intro to Cyber Security",
+			duration: "juli.2024 - juli.2024 [100%]",
 		},
 		{
 			institution: "TryHackMe",
 			degree: "Learning Path: PreSecurity",
-			duration: "july.2024 -  july.2024 [30%]",
+			duration: "july.2024 -  current date [30%]",
 		},
 		{
 			institution: "TryHackMe",
