@@ -14,29 +14,12 @@ import {
 	TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
 	{
 		num: "01",
-		category: "Full-stack",
-		title: "Booky - Fullstack hotel booking App",
-		description:
-			"Seamless hotel reservation management. Built with Next.js and Tailwind CSS, on Front-End. Strapi Back-End, and integrated Kinde Auth for user authentication, and ShadCn for Ui components.",
-		stack: [
-			{ name: "Next.js" },
-			{ name: "Tailwind CSS" },
-			{ name: "Strapi.io" },
-			{ name: "Kinde Auth" },
-		],
-		image: "/assets/work/project-booky.png",
-		live: "",
-		github: "https://github.com/JDasherCoding/booky-fullstack-nextjs",
-	},
-	{
-		num: "02",
 		category: "Full-stack",
 		title: "JSM Livedocs",
 		description:
@@ -51,6 +34,23 @@ const projects = [
 		live: "https://jsm-live-docs-psi.vercel.app/",
 		github: "https://github.com/JDasherCoding/jsm_live_docs",
 	},
+	{
+		num: "02",
+		category: "Full-stack",
+		title: "Booky - Fullstack hotel booking App",
+		description:
+			"Seamless hotel reservation management. Built with Next.js and Tailwind CSS, on Front-End. Strapi Back-End, and integrated Kinde Auth for user authentication, and ShadCn for Ui components.",
+		stack: [
+			{ name: "Next.js" },
+			{ name: "Tailwind CSS" },
+			{ name: "Strapi.io" },
+			{ name: "Kinde Auth" },
+		],
+		image: "/assets/work/project-booky.png",
+		live: "",
+		github: "https://github.com/JDasherCoding/booky-fullstack-nextjs",
+	},
+
 	{
 		num: "03",
 		category: "Front-End",
