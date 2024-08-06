@@ -56,7 +56,7 @@ const projects = [
 		category: "Front-End",
 		title: "Zenbrew",
 		description:
-			"A modern coffee shop built with Next and Tailwind Css with framer motion and gsap. Followed a guide by Michael Mihai to work on best practices.",
+			"A modern coffee shop built with Next and Tailwind Css with framer motion and gsap. Followed a guide by Michael Mihai to work on best practices. Especially liked the sideways scroll in the about section.",
 		stack: [
 			{ name: "Next.js" },
 			{ name: "Tailwind CSS" },
