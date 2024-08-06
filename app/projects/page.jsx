@@ -83,7 +83,7 @@ const projects = [
 		title: "Math Sprint Game",
 		description:
 			"A Math Sprint game implemented with HTML, CSS, and JavaScript, utilizing localStorage to maintain and display high scores.",
-		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+		stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }],
 		image: "/assets/work/project-math-sprint.png",
 		live: "https://jdashercoding.github.io/math-sprint-game-html/",
 		github: "https://github.com/JDasherCoding/math-sprint-game-html",
@@ -94,7 +94,7 @@ const projects = [
 		title: "Dad Jokes Generator",
 		description:
 			"Dad Jokes and an opportunity to work with an API. What's not to love? Admittedly, they're not the best jokes, but Dad jokes tend to be hit and miss.",
-		stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+		stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }],
 		image: "/assets/work/project-dad-jokes.png",
 		live: "https://jdashercoding.github.io/Dad-Jokes/",
 		github: "https://github.com/JDasherCoding/Dad-Jokes",
