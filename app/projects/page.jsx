@@ -37,6 +37,37 @@ const projects = [
 	},
 	{
 		num: "02",
+		category: "Full-stack",
+		title: "JSM Livedocs",
+		description:
+			"Markdown editor with live collaboration built in Next.js, with ShadCn and Tailwind for styling. Using Typescript and Sentry.io for quality control, Authentication using Clerk.",
+		stack: [
+			{ name: "Next.js" },
+			{ name: "Sentry.io" },
+			{ name: "Liveblocks" },
+			{ name: "Clerk" },
+		],
+		image: "/assets/work/project-livedocs.png",
+		live: "jsm-live-docs-psi.vercel.app",
+		github: "https://github.com/JDasherCoding/jsm_live_docs",
+	},
+	{
+		num: "03",
+		category: "Front-End",
+		title: "Zenbrew",
+		description:
+			"A modern coffee shop built with Next and Tailwind Css with framer motion and gsap. Followed a guide by Michael Mihai to work on best practices.",
+		stack: [
+			{ name: "Next.js" },
+			{ name: "Tailwind CSS" },
+			{ name: "Framer-motion" },
+		],
+		image: "/assets/work/project-zenbrew.png",
+		live: "zenbrew-delta.vercel.app",
+		github: "https://github.com/JDasherCoding/zenbrew",
+	},
+	{
+		num: "04",
 		category: "Front-End",
 		title: "Music Player",
 		description:
@@ -47,7 +78,7 @@ const projects = [
 		github: "https://github.com/JDasherCoding/music-player-html",
 	},
 	{
-		num: "03",
+		num: "05",
 		category: "Front-End",
 		title: "Math Sprint Game",
 		description:
@@ -58,7 +89,7 @@ const projects = [
 		github: "https://github.com/JDasherCoding/math-sprint-game-html",
 	},
 	{
-		num: "03",
+		num: "06",
 		category: "Front-End",
 		title: "Dad Jokes Generator",
 		description:
@@ -129,7 +160,11 @@ const Projects = () => {
 							{/* Buttons */}
 							<div className="flex items-center gap-4">
 								{/* Live Project Button  */}
-								<Link href={project.live}>
+								<a
+									href={project.live}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
 											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -140,10 +175,14 @@ const Projects = () => {
 											</TooltipContent>
 										</Tooltip>
 									</TooltipProvider>
-								</Link>
+								</a>
 
 								{/* Github Project Button */}
-								<Link href={project.live}>
+								<a
+									href={project.github}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<TooltipProvider delayDuration={100}>
 										<Tooltip>
 											<TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -154,7 +193,7 @@ const Projects = () => {
 											</TooltipContent>
 										</Tooltip>
 									</TooltipProvider>
-								</Link>
+								</a>
 							</div>
 						</div>
 					</div>

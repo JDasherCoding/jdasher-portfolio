@@ -63,17 +63,17 @@ const education = {
 		{
 			institution: "TryHackMe",
 			degree: "Learning Path: PreSecurity",
-			duration: "july.2024 -  current date [30%]",
+			duration: "july.2024 -  curr date [78%]",
 		},
 		{
 			institution: "TryHackMe",
 			degree: "Learning Path: Complete Beginner",
-			duration: "july.2024 - current date [6%]",
+			duration: "july.2024 - curr date [10%]",
 		},
 		{
 			institution: "University of Bergen",
 			degree: "Bachelor Program in Computer Security",
-			duration: "aug.2023 - current date",
+			duration: "aug.2023 - curr date [1/3]",
 		},
 
 		{
