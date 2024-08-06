@@ -48,7 +48,7 @@ const projects = [
 			{ name: "Clerk" },
 		],
 		image: "/assets/work/project-livedocs.png",
-		live: "jsm-live-docs-psi.vercel.app",
+		live: "https://jsm-live-docs-psi.vercel.app/",
 		github: "https://github.com/JDasherCoding/jsm_live_docs",
 	},
 	{
@@ -63,7 +63,7 @@ const projects = [
 			{ name: "Framer-motion" },
 		],
 		image: "/assets/work/project-zenbrew.png",
-		live: "zenbrew-delta.vercel.app",
+		live: "https://zenbrew-delta.vercel.app/",
 		github: "https://github.com/JDasherCoding/zenbrew",
 	},
 	{
