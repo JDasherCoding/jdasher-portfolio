@@ -36,6 +36,22 @@ const projects = [
 	},
 	{
 		num: "02",
+		category: "ReactNative FullStack",
+		title: "Aora - Video hosting & sharing App",
+		description:
+			"ReactNative App made with Expo, using NativeWind for styling, AppWrite for auth, and content management. Followed tutorial to learn React Native and Expo basics, for use in my own mobile application. ",
+		stack: [
+			{ name: "React Native" },
+			{ name: "Expo" },
+			{ name: "NativeWind" },
+			{ name: "Appwrite" },
+		],
+		image: "/assets/work/project-aora.png",
+		live: "",
+		github: "https://github.com/JDasherCoding/react_native_crashcourse",
+	},
+	{
+		num: "03",
 		category: "Full-stack",
 		title: "Booky - Fullstack hotel booking App",
 		description:
@@ -52,7 +68,7 @@ const projects = [
 	},
 
 	{
-		num: "03",
+		num: "04",
 		category: "Front-End",
 		title: "Zenbrew",
 		description:
@@ -67,7 +83,7 @@ const projects = [
 		github: "https://github.com/JDasherCoding/zenbrew",
 	},
 	{
-		num: "04",
+		num: "05",
 		category: "Front-End",
 		title: "Music Player",
 		description:
@@ -78,7 +94,7 @@ const projects = [
 		github: "https://github.com/JDasherCoding/music-player-html",
 	},
 	{
-		num: "05",
+		num: "06",
 		category: "Front-End",
 		title: "Math Sprint Game",
 		description:
@@ -89,7 +105,7 @@ const projects = [
 		github: "https://github.com/JDasherCoding/math-sprint-game-html",
 	},
 	{
-		num: "06",
+		num: "07",
 		category: "Front-End",
 		title: "Dad Jokes Generator",
 		description:

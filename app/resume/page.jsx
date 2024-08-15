@@ -1,7 +1,14 @@
 "use client";
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiPython, SiStrapi } from "react-icons/si";
+import {
+	SiTailwindcss,
+	SiNextdotjs,
+	SiPython,
+	SiStrapi,
+	SiExpo,
+	SiAppwrite,
+} from "react-icons/si";
 
 // about Data
 const about = {
@@ -68,14 +75,18 @@ const education = {
 		{
 			institution: "TryHackMe",
 			degree: "Learning Path: Complete Beginner",
-			duration: "july.2024 - curr date [10%]",
+			duration: "planned - okt.2024 [10%]",
 		},
 		{
-			institution: "University of Bergen",
-			degree: "Bachelor Program in Computer Security",
-			duration: "aug.2023 - curr date [1/3]",
+			institution: "TryHackMe",
+			degree: "Learning Path: JR Penetration Tester",
+			duration: "planned - dec.2024 [4%]",
 		},
-
+		// {
+		// 	institution: "University of Bergen",
+		// 	degree: "Bachelor Program in Computer Security",
+		// 	duration: "aug.2023 - curr date [1/3]",
+		// },
 		{
 			institution: "Jobloop, Kodehode",
 			degree: "Front-End Developer Bootcamp",
@@ -96,10 +107,6 @@ const skills = {
 			name: "Python",
 		},
 		{
-			icon: <SiNextdotjs />,
-			name: "Next.js",
-		},
-		{
 			icon: <FaHtml5 />,
 			name: "HTML 5",
 		},
@@ -113,21 +120,29 @@ const skills = {
 		},
 
 		{
-			icon: <SiStrapi />,
-			name: "Strapi Headless CMS",
+			icon: <SiNextdotjs />,
+			name: "Next.js",
 		},
-
+		{
+			icon: <FaReact />,
+			name: "React & React Native",
+		},
+		{
+			icon: <SiExpo />,
+			name: "Expo",
+		},
 		{
 			icon: <SiTailwindcss />,
 			name: "Tailwind CSS",
 		},
+
 		{
-			icon: <FaReact />,
-			name: "React",
+			icon: <SiAppwrite />,
+			name: "Appwrite",
 		},
 		{
-			icon: <FaFigma />,
-			name: "Figma",
+			icon: <SiStrapi />,
+			name: "Strapi Headless CMS",
 		},
 	],
 };
