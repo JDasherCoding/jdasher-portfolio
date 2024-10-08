@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import Chevron from "@/components/Chevron";
 
 export default function Home() {
 	return (
@@ -51,7 +52,9 @@ export default function Home() {
 
 					{/* Photo */}
 					<div className="order-1 xl:order-none mb-8 xl:mb-0">
-						<Photo />
+						{/* <Photo /> */}
+
+						<Chevron />
 					</div>
 				</div>
 			</div>
